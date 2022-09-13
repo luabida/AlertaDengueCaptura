@@ -1,3 +1,22 @@
+[tool.poetry]
+name = "alertacaptura"
+version = "0.1.0"
+description = "Base installation for AlertaDengue Captura"
+authors = ["Luã Bida Vacaro <luabidaa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+make = "^0.1.6.post2"
+docker-compose = "^1.29.2"
+pre-commit = "^2.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
 [tool.black]
 line-length = 79
 skip-string-normalization = true
